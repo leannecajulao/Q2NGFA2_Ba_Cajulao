@@ -1,0 +1,81 @@
+.icon{
+    background: url(images/sprite3\ \(1\).png) no-repeat;
+    width: 66px;
+    height: 66px;
+}
+#cloud{
+    background-position: -365px -72px;
+}
+#greenv{
+    background-position: -587px -221px;
+}
+#youtube{
+    background-position: -290px -72px;
+}
+#pinterest{
+    background-position: -141px -221px;
+    
+}
+.navbar{
+    background-color:rgba(120, 45, 206, 0.856);
+    border: block rgb(219, 130, 231) 4px;
+    width: 100vw;
+    padding: 23px;
+    display: inline-flex;
+}
+#button a{
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(228, 163, 188);
+    color:#f10769;
+    font-size: x-large;
+    border: rgb(255, 255, 255) block 2px;
+    margin: 10px;
+    padding: 1px;
+    transition: .4s;
+    background-color: rgb(247, 66, 150);
+}
+.footer{
+    display: inline-flex;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:rgba(255, 147, 255, 0.856);
+    border: rgb(198, 59, 240) block 4px;
+    width: 100vw;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 640px){
+    .dropbtn{
+        background-color: rgb(252, 128, 204);
+        color:rgb(139, 0, 139);
+        padding: 1vw;
+        font-size: 16px;
+        border: none;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: rgb(255, 0, 200);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px black;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display:block;
+
+    }
+    .dropdown-content a:hover {background-color: aliceblue;}
+    .dropdown:hover .dropdown-content {display: block}
+    .dropdown:hover .dropbtn {background-color: rgb(175, 105, 175);}
+}
